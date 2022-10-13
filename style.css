@@ -1,0 +1,154 @@
+
+    .container{
+        height: 400px;
+        width: 100%;
+        background-color: black;
+        overflow:hidden;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        animation-duration: 10s;
+
+    }
+    /*@keyframes example {
+  from {background-color:   rgb(98, 197, 255), rgba(12, 164, 60, 0.952);}
+  to {background-color:  rgb(255, 245, 50), rgb(252, 139, 0), red rgb(131, 255, 59);}
+}*/
+
+    .a{
+        background-color: rgb(191, 15, 214);
+        animation-name: btbt;
+    }
+    @keyframes btbt {
+        from {background-color: rgba(158, 15, 214, 0.963);}
+        to {background-color: rgb(19, 185, 77);}
+      }
+    .b{
+        background-color:rgb(0, 68, 255);
+        position: relative;
+        left: 100px;
+        animation-name: ola;
+    }
+    @keyframes ola{
+        from {background-color: rgb(0, 68, 255);}
+        to{background-color: yellow;}
+    }
+    .c{
+        background-color: rgb(85, 255, 0);
+        animation-name: busy;
+    }
+    @keyframes busy{
+        from{ background-color: skyblue;}
+        to{background-color: orange;}
+    }
+    .d{
+        background-color:rgb(255, 72, 0);
+        left: 100px;
+        position: relative;
+        animation-name: sakura;
+    }
+    @keyframes sakura{
+        from{background-color: rgb(19, 185, 77);}
+    to{background-color: red;}
+    }
+    #jontrona{
+        position: relative; 
+        top:100px;
+    }
+    #ok{
+        position: fixed;
+        margin-left: 10px;
+        animation-name: okay;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    
+    #biroktikor{
+        position: relative; 
+        top:100px;
+    
+    }
+    .box{
+        background-color: black;
+
+    }
+    .third{
+        background-color: black;
+        height: 500px;
+    }
+   
+    a:link{
+        color:brown;
+    
+    }
+    a:visited{
+        color: green;
+    }
+    a:hover{
+        color:yellow;
+
+    }
+    a:active{
+        color: blue;
+    }
+    .special-effect{
+color: blueviolet;
+    }
+    .special-effect:hover{
+color: red;
+background-color: lightgreen;
+
+    }
+    .special-effect::after{
+        content: "^_^" ;
+        color: rgb(139, 0, 97);
+        font-weight: bold;
+
+    }
+    input:focus{
+        font-size: 30px;
+        color: chocolate;
+    }
+    li:first-child{
+        color: fuchsia;
+    }
+    li:last-child{
+        color: darkolivegreen;
+    }
+    li:nth-child(2n+1):hover{
+background-color: violet;
+    }
+    
+    body{
+        counter-reset: section;
+    }
+.emoji p::before{
+    content: "💛";
+}
+.overflow{
+    height: 70px;
+    width: 95%;
+    overflow: auto;
+    background-color: plum;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    margin-left: 20px;
+    
+}
+.overflow p{
+    padding: 0 20px 0 20px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(254, 169, 103);
+    font-size: large;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
