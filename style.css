@@ -64,6 +64,13 @@
         animation-iteration-count: infinite;
         animation-direction: alternate-reverse;
     }
+    @keyframes okay {
+        0%   {background: rgba(243, 108, 108, 0.823); left: 0px; top: 0px;}
+        25%  {background: rgba(242, 199, 79, 0.981); left: 200px; top: 0px;}
+        50%  {background: rgb(166, 209, 227); left: 200px; top: 200px;}
+        75%  {background: rgb(31, 190, 145); left: 0px; top: 200px;}
+        100% {background: rgb(236, 127, 63); left: 0px; top: 0px;}
+      }
     
     #biroktikor{
         position: relative; 
